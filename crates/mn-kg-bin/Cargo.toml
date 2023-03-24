@@ -1,0 +1,9 @@
+[package]
+name = "mn-kg-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mn-kg = { path = "../mn-kg" }
+dialoguer = "0.10.3"
+anyhow = "1.0.70"
